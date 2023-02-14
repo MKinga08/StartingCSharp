@@ -9,8 +9,7 @@ namespace StartingCSharp
 {
     internal class Student
     {
-        public string name;
-        public string major;
+        public string name, major;
         public double gpa;
 
         public Student(string aName, string aMajor, double aGpa)
