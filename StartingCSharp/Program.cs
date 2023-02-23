@@ -1,4 +1,7 @@
-﻿namespace StartingCSharp;
+﻿using System.Diagnostics;
+
+namespace StartingCSharp;
+
 class Program
 {
     static void Main(string[] args)
@@ -23,7 +26,16 @@ class Program
         CreatingClasses();
         
         PractisingConstructorMethods();
+
+        PractisingGetSet();
+
+        StaticAttributes();
+
+        StaticMethods();
+
+        Inheritance();
     }
+
     static void EnterAName()
     {
         Console.WriteLine("------------- EnterAName method --------------");
@@ -133,7 +145,8 @@ class Program
             }
         }
     }
-    static void CreatingClasses()
+
+    public static void CreatingClasses()
     {
         Console.WriteLine("------------- CreatingClasses method --------------");
         Book book1 = new Book();
@@ -141,6 +154,7 @@ class Program
         book1.author = "JK Rowling";
         book1.pages = 400;
         Console.WriteLine(book1.title);
+
     }
     static void PractisingConstructorMethods()
     {
@@ -151,5 +165,37 @@ class Program
         Console.WriteLine($"Has {student1.name} Honors? {student1.HasHonors()}");
         Console.WriteLine($"Has {student2.name} Honors? {student2.HasHonors()}");
 
+    }
+    static void PractisingGetSet()
+    {
+        Console.WriteLine("------------- PractisingConstructorMethods method --------------");
+        Movie movie1 = new Movie("Avengers", "Somebody", "G");
+        Movie movie2 = new Movie("Lord of the Rings", "Idontknow", "R");
+
+        Console.WriteLine(movie1.title);
+    }
+    static void StaticAttributes()
+    {
+        Console.WriteLine("------------- StaticAttributes --------------");
+        Song holiday = new Song("Holiday", "Greenday", 200);
+        Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
+        Console.WriteLine(Song.SongCount + " (This is a static attribute, this belongs to the class itself)");
+        Console.WriteLine($"{holiday.title} {kashmir.title} (These are the titles of the holiday and kashmir variable I created)");
+    }
+    static void StaticMethods()
+    {
+        Console.WriteLine("------------- StaticMethods --------------");
+        Console.WriteLine($"The square root of 144 is {Math.Sqrt(144)}");
+        UsefulTools.SayHi(" Mike");
+    }
+    static void Inheritance()
+    {
+        Console.WriteLine("------------- Inheritance --------------");
+        Chef chef = new();
+        chef.MakeChicken();
+        ItalianChef itchef = new();
+        itchef.MakePasta();
+        chef.MakeSpecialDisch();
+        itchef.MakeSpecialDisch();
     }
 }

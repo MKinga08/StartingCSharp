@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace StartingCSharp
 {
-    public class Book
+    static class UsefulTools
     {
-        public string? title;
-        public string? author;
-        public int pages;
+        public static void SayHi(string name)
+        {
+            Console.WriteLine("Hello" + name);
+        }
     }
 }

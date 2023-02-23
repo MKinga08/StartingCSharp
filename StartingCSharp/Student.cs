@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace StartingCSharp
 {
-    internal class Student
+    public class Student
     {
         public string name, major;
         public double gpa;

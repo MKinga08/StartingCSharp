@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\C#_Projects\\Giraffe\\Giraffe\\StartingCSharp.csproj": {}
+    "C:\\Users\\User\\Desktop\\C#_Projects\\StartingCSharp\\StartingCSharp\\StartingCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\C#_Projects\\Giraffe\\Giraffe\\StartingCSharp.csproj": {
+    "C:\\Users\\User\\Desktop\\C#_Projects\\StartingCSharp\\StartingCSharp\\StartingCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\C#_Projects\\Giraffe\\Giraffe\\StartingCSharp.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\C#_Projects\\StartingCSharp\\StartingCSharp\\StartingCSharp.csproj",
         "projectName": "StartingCSharp",
-        "projectPath": "C:\\Users\\User\\Desktop\\C#_Projects\\Giraffe\\Giraffe\\StartingCSharp.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\C#_Projects\\StartingCSharp\\StartingCSharp\\StartingCSharp.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\C#_Projects\\Giraffe\\Giraffe\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\C#_Projects\\StartingCSharp\\StartingCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

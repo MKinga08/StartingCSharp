@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\C#_Projects\\StartingCSharp\\StartingCSharp\\Giraffe.csproj",
-      "projectName": "Giraffe",
-      "projectPath": "C:\\Users\\User\\Desktop\\C#_Projects\\StartingCSharp\\StartingCSharp\\Giraffe.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\C#_Projects\\StartingCSharp\\StartingCSharp\\StartingCSharp.csproj",
+      "projectName": "StartingCSharp",
+      "projectPath": "C:\\Users\\User\\Desktop\\C#_Projects\\StartingCSharp\\StartingCSharp\\StartingCSharp.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Desktop\\C#_Projects\\StartingCSharp\\StartingCSharp\\obj\\",
       "projectStyle": "PackageReference",
